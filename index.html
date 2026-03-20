@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Chaubey | Cybersecurity Enthusiast</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Background Animation (Particles & 3D WebGL) -->
+    <div id="canvas-container"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <a href="#" class="logo">Sarthak<span>.</span></a>
+
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#resume" class="nav-link">Resume</a>
+            <a href="#contact" class="nav-link btn-contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="home-content reveal">
+            <h3>Hello, It's Me</h3>
+            <h1>Sarthak Chaubey</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Passionate about building software, cybersecurity, and creating seamless digital experiences. Constantly
+                exploring new technologies and solving complex logical and structural problems.</p>
+
+            <div class="social-media">
+                <a href="https://linkedin.com/in/sarthak" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Sarthak-Chaubey" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sarthakchaubey07@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <a href="#contact" class="btn">Let's Connect</a>
+            <!-- Link to resume download -->
+            <a href="resume.pdf" target="_blank" class="btn btn-outline"><i class="fas fa-download"></i> Download
+                Resume</a>
+        </div>
+        <div class="home-img reveal-right">
+            <!-- Dynamic CSS shape or glowing orb -->
+            <div class="glowing-orb">
+                <div class="orb-content">
+                    <img src="WhatsApp Image 2026-03-20 at 6.59.57 PM.jpeg" alt="Sarthak Chaubey">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading reveal">About <span>Me</span></h2>
+
+        <div class="about-grid">
+            <!-- Main Bio Card -->
+            <div class="grid-card bio-card reveal-left">
+                <i class="fas fa-user-astronaut card-icon"></i>
+                <h3>Sarthak Chaubey</h3>
+                <p>
+                    A highly motivated B.Tech Computer Science student at <strong>Lovely Professional
+                        University</strong>.
+                    I excel at blending pure logical thinking with an eye for detail, striving to create intuitive
+                    front-end interfaces and robust backend systems.
+                    Beyond development, I have a deep passion for exploring cyber defense strategies and network
+                    architectures.
+                </p>
+                <div class="bio-tags">
+                    <span><i class="fas fa-map-marker-alt"></i> Punjab, India</span>
+                    <span><i class="fas fa-university"></i> LPU (CGPA: 6.56)</span>
+                </div>
+            </div>
+
+            <!-- Stats Mini Cards -->
+            <div class="grid-card stat-card reveal">
+                <h2>3+</h2>
+                <p>Major Projects</p>
+            </div>
+            <div class="grid-card stat-card reveal">
+                <h2>4</h2>
+                <p>Certifications</p>
+            </div>
+            <div class="grid-card stat-card highlight reveal">
+                <h2>1st</h2>
+                <p>Runner-Up (Tech Event)</p>
+            </div>
+
+            <!-- Education Timeline inside Grid -->
+            <div class="grid-card edu-card reveal-right">
+                <div class="card-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Education Journey</h3>
+                </div>
+                <div class="edu-track">
+                    <div class="edu-node">
+                        <div class="node-marker"></div>
+                        <div class="node-content">
+                            <h4>B.Tech - CSE</h4>
+                            <p>Lovely Professional Univ.</p>
+                            <span>Aug 2023 - Present</span>
+                        </div>
+                    </div>
+                    <div class="edu-node">
+                        <div class="node-marker"></div>
+                        <div class="node-content">
+                            <h4>Intermediate (12th)</h4>
+                            <p>Bihar School Exam Board</p>
+                            <span>April 2021 - July 2023</span>
+                        </div>
+                    </div>
+                    <div class="edu-node">
+                        <div class="node-marker"></div>
+                        <div class="node-content">
+                            <h4>Matriculation</h4>
+                            <p>DAV Public School</p>
+                            <span>April 2020 - July 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading reveal">My <span>Skills</span></h2>
+
+        <div class="skills-container reveal">
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill-cloud">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C/C++</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Data Structures</span>
+                    <span class="skill-tag">Algorithms</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skill-cloud">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Three.js</span>
+                    <span class="skill-tag">UI/UX Design</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                </div>
+                <div class="skill-cloud">
+                    <span class="skill-tag">Encryption</span>
+                    <span class="skill-tag">IDS/IPS</span>
+                    <span class="skill-tag">DLP</span>
+                    <span class="skill-tag">NAC</span>
+                    <span class="skill-tag">Firewalls</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="category-header">
+                    <i class="fas fa-brain"></i>
+                    <h3>Soft Skills</h3>
+                </div>
+                <div class="skill-cloud">
+                    <span class="skill-tag">Analytical Thinking</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Team Player</span>
+                    <span class="skill-tag">Adaptability</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading reveal">Featured <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <!-- Project 1 -->
+            <div class="portfolio-box reveal">
+                <div class="portfolio-icon">
+                    <i class="fas fa-solar-panel"></i> <!-- Conceptual icon for solar system -->
+                </div>
+                <div class="portfolio-content">
+                    <h3>Solar System Simulation</h3>
+                    <p>Developed an interactive 3D-like model visually displaying planetary orbits around the sun.
+                        Implemented smooth animations and rotation logic to mimic realistic movement in space using pure
+                        web technologies.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://github.com/Sarthak-Chaubey/solar-system-by-sathak.git" target="_blank"
+                        class="portfolio-link"><i class="fab fa-github"></i> View Repository</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-box reveal">
+                <div class="portfolio-icon">
+                    <i class="fas fa-copy"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Plagiarism Checker</h3>
+                    <p>A Python-based tool comparing texts to verify originality. Employs text preprocessing and
+                        algorithms like TF-IDF & cosine similarity for accurate content matching. Wrapped in a clean,
+                        user-friendly interface.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <a href="https://github.com/Sarthak-Chaubey/Plagiarism-----Checker.git" target="_blank"
+                        class="portfolio-link"><i class="fab fa-github"></i> View Repository</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-box reveal">
+                <div class="portfolio-icon">
+                    <i class="fas fa-history"></i>
+                </div>
+                <div class="portfolio-content">
+                    <h3>Bee History 3D Timeline</h3>
+                    <p>An educational interactive timeline showcasing the evolutionary history of bees. Features smooth
+                        camera controls and rich graphics for navigating different time periods, significantly enhancing
+                        user engagement.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript (Three.js)</span>
+                    </div>
+                    <a href="https://github.com/Sarthak-Chaubey/bee-history-3d-timeline.git" target="_blank"
+                        class="portfolio-link"><i class="fab fa-github"></i> View Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <h2 class="heading reveal">My <span>Certifications</span></h2>
+
+        <div class="cert-container">
+            <!-- Cert 1 -->
+            <div class="cert-box reveal">
+                <div class="cert-img">
+                    <!-- Replace with actual certificate path later (e.g., images/cert1.jpg) -->
+                    <img src="TCP.png" alt="TCP/IP Certification">
+                </div>
+                <div class="cert-info">
+                    <h3>TCP/IP and Advanced Topics</h3>
+                    <p>Coursera</p>
+                    <a href="https://coursera.org/share/e6201dd3c76f05fef53f38d898b3d1b8" class="cert-link"
+                        target="_blank">View Credential <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="cert-box reveal">
+                <div class="cert-img">
+                    <img src="Packert.png" alt="Packet Switching Certification">
+                </div>
+                <div class="cert-info">
+                    <h3>Packet Switching Network and Algorithms</h3>
+                    <p>Coursera</p>
+                    <a href="https://coursera.org/share/12213fdff9068dd606a72d76e70341d1" class="cert-link"
+                        target="_blank">View Credential <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="cert-box reveal">
+                <div class="cert-img">
+                    <img src="PEER (2).png" alt="Peer-to-Peer Certification">
+                </div>
+                <div class="cert-info">
+                    <h3>Peer-to-Peer Protocols and Local Area Networks</h3>
+                    <p>Coursera</p>
+                    <a href="https://coursera.org/share/3a19160faf8f12f2752ff2b4f06a25fb" class="cert-link"
+                        target="_blank">View Credential <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Cert 4 -->
+            <div class="cert-box reveal">
+                <div class="cert-img">
+                    <img src="Fundamentals.png" alt="Network Communication Certification">
+                </div>
+                <div class="cert-info">
+                    <h3>Fundamentals of Network Communication</h3>
+                    <p>Coursera</p>
+                    <a href="https://coursera.org/share/2ed4333547cf1ed80e6c68b8c33246a4" class="cert-link"
+                        target="_blank">View Credential <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Training Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading reveal">Training & <span>Achievements</span></h2>
+
+        <div class="timeline reveal">
+            <!-- Summer Training -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">June 2025</div>
+                <div class="timeline-content">
+                    <h3>Logic Building, Programming & Data Structures</h3>
+                    <h4>Summer Training</h4>
+                    <p>Built robust problem-solving skills using structured programming approaches. Gained hands-on
+                        experience with core concepts (loops, arrays, pointers, recursion) and fundamental data
+                        structures (stacks, queues, linked lists, sorting/searching techniques).</p>
+                </div>
+            </div>
+
+            <!-- Achievement -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Nov 2024</div>
+                <div class="timeline-content">
+                    <h3>1st Runner-Up, Tech Aristocracy</h3>
+                    <h4>Lovely Professional University</h4>
+                    <p>Recognized for innovative thinking, collaborative teamwork, and delivering impactful technical
+                        solutions during a highly competitive university technical event.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume" id="resume">
+        <h2 class="heading reveal">My <span>Resume</span></h2>
+
+        <div class="resume-wrapper reveal">
+            <div class="resume-content">
+                <h3>Take a deeper dive into my journey!</h3>
+                <p>Feel free to view my resume for more details on my projects, skills, certifications, and academic
+                    background. You can download a PDF copy to keep for your records or read it directly here.</p>
+                <a href="resume.pdf" class="btn" download><i class="fas fa-download"></i> Download PDF</a>
+            </div>
+
+            <div class="resume-img-container" data-tilt>
+                <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <img src="Resume.png" alt="Sarthak Chaubey Resume" style="cursor:pointer;">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading reveal">Contact <span>Me!</span></h2>
+
+        <div class="contact-wrapper reveal">
+            <div class="contact-info">
+                <h3>Let's work together</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>sarthakchaubey07@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 7759979102</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Punjab, India</p>
+                </div>
+            </div>
+
+            <form action="#" class="contact-form">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Sarthak Chaubey | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Vanilla Tilt for 3D Hover Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Typewriter Effect Library (Typed.js) -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
